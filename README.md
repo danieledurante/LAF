@@ -18,7 +18,7 @@ series analysis*](http://biomet.oxfordjournals.org/content/89/3/603.short). Biom
     - `NGPtools.jl` implements the code to draw posterior samples from the nested Gaussian Process (nGP) of Zhu and Dunson (2013). [*Locally Adaptive Bayes Nonparametric Regression via Nested Gaussian Processes*](http://amstat.tandfonline.com/doi/abs/10.1080/01621459.2013.838568#.VdsWUNNViko). Journal of the American Statistical Association, 108:1445—1456.
 
 - **Codes to generate data where to test the different routines and the final Gibbs sampler**.
-    - `test_signals.ipynb` generates test data with locally-varying smoothness leveraging the examples in Donoho and Johnstone (1994).[*Ideal spatial adaptation by wavelet shrinkage*](http://biomet.oxfordjournals.org/content/81/3/425.short). Biometrika, 81:425—455. This code is in `Python`, and is useful to validate both the nGP code, and the Gibbs sampler for the LAF model.
+    - `test_signals.ipynb` generates test data with locally-varying smoothness leveraging the examples in Donoho and Johnstone (1994). [*Ideal spatial adaptation by wavelet shrinkage*](http://biomet.oxfordjournals.org/content/81/3/425.short). Biometrika, 81:425—455. This code is in `Python`, and is useful to validate both the nGP code, and the Gibbs sampler for the LAF model.
     - `make_laf_test_data.ipynb` generates the data from a time-varying factor process to test the LAF algorithm and saves the results in a jld (`HDF5`) file. This code is based on the constructive representation of the LAF described in Section 2 of our paper.
 
 - **Codes to validate the different routines**.
